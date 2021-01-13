@@ -4,50 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ORYON - Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-      <nav id="navbar">
+    <main class="animate__animated animate__fadeIn">
+      <nav id="navbar" class="center">
         <ul>
-          <li><a href="#welcome-section">Main</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+          <li class="center"><a href="#welcome-section">Main</a></li>
+          <li class="center"><a href="#projects">Projects</a></li>
+          <li class="center"><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
 
-      <section id="welcome-section">
-        <h1>ORYON</h1>
-        <h2>Dmytro Khyzhniak</h2>
-        <h3>Junior Frontend Developer</h3>
+      <section id="welcome-section" class="center">
+        <h1>Dmytro Khyzhniak</h1>
+        <h2>Junior Frontend Developer</h2>
       </section>
 
-      <section id="projects">
-        <div class="project">
-          <div class="project-tile"><a href="https://exoryon.github.io/Tesla/"><img src="images/Tesla.jpg" alt="My site about Tesla car">Tesla</a></div>
+      <section id="projects" class="center">
+        <div class="projects-header center">
+          <h3>Projects</h3>
+        </div>
+
+        <div class="project" id="first">
+          <div class="project-tile"><a href="https://exoryon.github.io/Scrolling-animation/" target="_blank"><img src="images/ORYON.jpg" alt="My site with scrolling animation"></a></div>
         </div>
         <div class="project">
-          <div class="project-tile"><a href="https://exoryon.github.io/Scrolling-animation/"><img src="images/ORYON.jpg" alt="My site with scrolling animation">Scrolling animation</a></div>
+          <div class="project-tile"><a href="https://exoryon.github.io/Tesla/"  target="_blank"><img src="images/Tesla.jpg" alt="My site about Tesla car"></a></div>
         </div>
         <div class="project">
-          <div class="project-tile"><a href="https://exoryon.github.io/Battleship-player-1-vs-player-2/"><img src="images/Battleship.jpg" alt="My game - battleship">Battleship</a></div>
+          <div class="project-tile"><a href="https://exoryon.github.io/Free-Code-Camp-Build-a-Product-Landing-Page/" target="_blank"><img src="images/Strato Automation.jpg" alt="My site - a product landing page">  </a></div>
         </div>
         <div class="project">
-          <div class="project-tile"><a href="https://github.com/exORYON/Free-Code-Camp-Build-a-Product-Landing-Page"><img src="images/Strato Automation.jpg" alt="My site - a product landing page">Product landing page</a></div>
+          <div class="project-tile"><a href="https://exoryon.github.io/Weather-Cast/" target="_blank"><img src="images/Weather cast.jpg" alt="My site - weather cast"></a></div>
         </div>
         <div class="project">
-          <div class="project-tile"><a href="https://github.com/exORYON/Weather-Cast"><img src="images/Weather cast.jpg" alt="My site - weather cast">Weather cast</a></div>
+          <div class="project-tile"><a href="https://exoryon.github.io/Battleship-player-1-vs-player-2/" target="_blank"><img src="images/Battleship.jpg" alt="My game - battleship"></a></div>
         </div>
         <div class="project">
-          <div class="project-tile"><a href="https://github.com/exORYON/Finddify"><img src="images/Finddify.jpg" alt="My site - search on Reddit anything">Finddify</a></div>
+          <div class="project-tile"><a href="https://exoryon.github.io/Finddify/" target="_blank"><img src="images/Finddify.jpg" alt="My site - search on Reddit anything"></a></div>
         </div>
       </section>
 
-      <section id="contacts">
-        <a href="https://github.com/exORYON" id="profile-link" target="_blank">My Github</a>
-        <a href="https://t.me/exORYON" target="_blank">My Telegram</a>
-        <a href="https://www.freecodecamp.org/oryon" target="_blank">My FreeCodeCamp</a>
-        <a href="https://www.codewars.com/users/ORYON69" target="_blank">My CodeWars</a>
+      <section id="contacts" class="center">
+        <ul>
+          <li class="center"><a href="https://github.com/exORYON" id="profile-link" target="_blank">My Github</a></li>
+          <li class="center"><a href="https://t.me/exORYON" target="_blank">My Telegram</a></li>
+          <li class="center"><a href="https://www.freecodecamp.org/oryon" target="_blank">My FreeCodeCamp</a></li>
+          <li class="center"><a href="https://www.codewars.com/users/ORYON69" target="_blank">My CodeWars</a></li>
+        </ul>
       </section>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
